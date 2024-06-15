@@ -1,0 +1,18 @@
+################################## DOCKER ########################################
+
+
+# 1.docker build new images
+>> docker build -f Dockerfile -t weight_predictor:1.0
+
+# 2.check docker images
+>> docker images
+
+# 3.docker run
+docker run -ti --name weight_predictor weight_predictor:1.0
+
+# 4.goes inside the dockerfile
+docker run -ti weight_predictor /bin/bash
+
+# 5.delete docker images
+>> docker rmi -f IMAGEID
+
