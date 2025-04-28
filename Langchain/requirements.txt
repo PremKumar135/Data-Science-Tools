@@ -1,5 +1,8 @@
 langchain
-langchain_community
+langchain-community
+langchainhub
+langchain-chroma
+bs4
 streamlit
 ollama
 python-dotenv

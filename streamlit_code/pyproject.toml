@@ -1,10 +1,10 @@
 [project]
-name = "todo-app"
+name = "streamlit-code"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "fastapi[standard]>=0.115.12",
     "ipykernel>=6.29.5",
+    "streamlit>=1.44.1",
 ]
